@@ -29,7 +29,6 @@
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
-  color: white;
 }
 
 #login-form input:not([type="submit"]) {
