@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - OttoTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-dog fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component user-components_inchats">
+          <div class="user-component__column">
+            <img
+              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/otto-1656114981.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Otto</h4>
+              <h6 class="user-component__subtitle">Image</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">20:58</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+
+      <div class="user-component user-components_inchats">
+        <div class="user-component__column">
+          <img
+            src="https://d.newsweek.com/en/full/1979380/dog-running-through-autumn-leaves.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Toto</h4>
+            <h6 class="user-component__subtitle">See you there!</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">15:01</span>
+        </div>
+      </div>
+
+      <div class="user-component user-components_inchats">
+        <div class="user-component__column">
+          <img
+            src="https://img1.10bestmedia.com/Images/Photos/379272/GettyImages-104489865_54_990x660.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__group-title">
+              Buddies <i class="fa-solid fa-6 fa-xs"></i>
+              <i class="fa-solid fa-bell-slash fa-xs"></i>
+            </h4>
+            <h6 class="user-component__subtitle">hey hey hey</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">13:50</span>
+          <div class="badge">75</div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-regular fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">76</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__noti__new"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your Screen is too Big 😭</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/522f74ad96.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
